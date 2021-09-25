@@ -67,10 +67,10 @@
 # path = f"{dirname}/{filename}"
 # print(path)
 # литералы строк
-my_str_1 = "I'm Qwerty"
-my_str_2 = '"apple" asdf'
-my_str_3 = '''zsada'''
-my_str_4 = """QWERS"""
+# my_str_1 = "I'm Qwerty"
+# my_str_2 = '"apple" asdf'
+# my_str_3 = '''zsada'''
+# my_str_4 = """QWERS"""
 
 # index = -5      # индекс -1 последний с конца
 # symbol = my_str_1[index]
@@ -107,3 +107,21 @@ my_str_4 = """QWERS"""
 
 # for index in range(ord("a"), ord('z') + 1):
 #     print(f"index {index} --> '{chr(index)}")
+
+###################################
+
+# while условие:
+#     блок если да
+# count = 0
+# while count < 10:
+#     print("This is while loop", count)
+#     count += 1
+
+count = 0
+do_loop = True
+
+while do_loop:
+    print("This is while loop", count)
+    count += 1
+    if count >=10:
+        do_loop = False
